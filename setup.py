@@ -9,7 +9,7 @@ from setuptools.command.install import install
 
 PROJECT_NAME = 'quaerere-willamette-common'
 INSTALL_REQUIRES = [
-    'marshmallow>=2.19.0,<3',
+    'marshmallow>=2.16.0,<3',
     'quaerere-base-common', ]
 SETUP_REQUIRES = [
     'pytest-runner',
