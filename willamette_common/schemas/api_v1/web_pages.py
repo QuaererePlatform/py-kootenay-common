@@ -3,8 +3,8 @@ __all__ = ['WebPageSchema']
 from marshmallow import fields
 from quaerere_base_common.schema import BaseSchema
 
-from ..models import WebPageBase
+from .mixins import WebPageFieldsMixin
 
 
-class WebPageSchema(BaseSchema, WebPageBase):
+class WebPageSchema(WebPageFieldsMixin, BaseSchema):
     _key = fields.String()
