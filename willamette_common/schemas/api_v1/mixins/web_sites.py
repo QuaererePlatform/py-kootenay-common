@@ -1,8 +1,8 @@
-__all__ = ['WebSiteBase']
+__all__ = ['WebSiteFieldsMixin']
 
 from marshmallow import fields
 
 
-class WebSiteBase:
+class WebSiteFieldsMixin:
     url = fields.Url(required=True)
     inLanguage = fields.String()
