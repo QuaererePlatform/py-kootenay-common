@@ -1,8 +1,8 @@
 # Generated file, do not edit
-marshmallow>=2.16.0,<3
-quaerere-base-common
+marshmallow<3,>=2.16.0
+quaerere-base-common>=0.1.1
 pytest-runner
-Sphinx>=1.8.0,<2
+Sphinx<2,>=1.8.0
 sphinx-rtd-theme
 setuptools
 pytest>=4.2.0
