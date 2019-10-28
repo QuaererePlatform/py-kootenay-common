@@ -1,6 +1,6 @@
-from marshmallow import fields
+from marshmallow import fields, Schema
 
 
-class SourceAccounting:
+class SourceAccounting(Schema):
     data_origin = fields.String(required=True)
     datetime_acquired = fields.DateTime()
